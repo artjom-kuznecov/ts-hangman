@@ -1,0 +1,111 @@
+.container {
+    position: relative;
+}
+
+/* == STAND FOR HANGMAN == */
+
+.stand1 {
+    width: 125px;
+    height: 5px;
+    background-color: #000;
+}
+
+.stand2 {
+    width: 5px;
+    height: 200px;
+    margin-left: 60px;
+    background-color: #000;
+}
+
+.stand3 {
+    height: 5px;
+    width: 100px;
+    background-color: #000;
+    margin-left: 60px;
+}
+.stand4 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 25px;
+    width: 5px;
+    background-color: #000;
+    margin-left: 60px;
+}
+
+
+/* == HANGMAN == */
+.head {
+    position: absolute;
+    top: 25px;
+    right: -15px;
+
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    border: 5px solid black;
+}
+
+.body {
+    width: 5px;
+    height: 50px;
+    background-color: #000;
+    position: absolute;
+    top: 60px;
+    right: 0;
+}
+
+.larm {
+    width: 50px;
+    height: 5px;
+    background-color: #000;
+    position: absolute;
+    top: 65px;
+    right: -50px;
+    rotate: 30deg;
+    transform-origin: left top;
+}
+
+.rarm {
+    width: 50px;
+    height: 5px;
+    background-color: #000;
+    position: absolute;
+    top: 65px;
+    right: 5px;
+    rotate: -30deg;
+    transform-origin: right top;
+}
+
+.rarm {
+    width: 50px;
+    height: 5px;
+    background-color: #000;
+    position: absolute;
+    top: 65px;
+    right: 5px;
+    rotate: -30deg;
+    transform-origin: right top;
+}
+
+.lleg {
+    width: 50px;
+    height: 5px;
+    background-color: #000;
+    position: absolute;
+    top: 105px;
+    right: -50px;
+    rotate: 70deg;
+    transform-origin: left top;
+}
+
+.rleg {
+    width: 50px;
+    height: 5px;
+    background-color: #000;
+    position: absolute;
+    top: 105px;
+    right: 5px;
+    rotate: -70deg;
+    transform-origin: right top;
+}

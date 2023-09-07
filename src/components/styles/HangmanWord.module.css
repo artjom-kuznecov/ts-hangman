@@ -1,0 +1,12 @@
+.container {
+    display: flex;
+    gap: .25em;
+    font-size: 4rem;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+
+.letter {
+    border-bottom: .1em solid black;
+}

@@ -1,0 +1,30 @@
+.container {
+    position: absolute;
+    top: 20px;
+    right: 300px;
+}
+.btns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.en {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    height: 50px;
+    border-radius: 25px 0 0 25px ;
+    cursor: pointer;
+}
+
+.ru {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    height: 50px;
+    border-radius: 0 25px 25px 0;
+    cursor: pointer;
+}
