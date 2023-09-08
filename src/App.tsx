@@ -18,7 +18,7 @@ function App() {
   let [reload, setReload] = useState(false)
   
   const getWordsList = ((language:string) => {
-    if (language === 'ru') ruWords
+    if (language === 'ru') return ruWords
     return enWords
   })
 
@@ -31,6 +31,7 @@ function App() {
       return words[Math.floor(Math.random() * words.length)]
     }
     setWordToGuess(getWord)
+    console.log(wordToGuess);
     setGuessedLetters([])
 
   }, [language, reload])
